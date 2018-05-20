@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
   "name": "GoodByte",
   "version": "1.00",
   "dependencies": {
