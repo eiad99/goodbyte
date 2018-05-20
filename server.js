@@ -17,7 +17,7 @@ app.get('/trello/board/:key/:token/:id', function (req, res) {
    res.send('ok');
 })
 
-var server = app.listen(80, function () {
+var server = app.listen(8080,'172.30.132.59', function () {
 
    var host = server.address().address
    var port = server.address().port
