@@ -1,10 +1,14 @@
 {
-  "scripts": {
-    "start": "node server.js"
-  },
-  "main": "server.js"
   "name": "GoodByte",
-  "version": "1.00",
+  "version": "1.0.0",
+  "main": "server.js"
+   "scripts": {
+    "start": "node server.js"
+   },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/eiad99/goodbyte"
+   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
